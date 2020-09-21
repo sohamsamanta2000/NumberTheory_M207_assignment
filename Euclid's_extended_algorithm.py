@@ -28,6 +28,6 @@ print(ext_gcd(10889992, 66))  # example
 #  Now, we can write r_i =(x_i)*a + (y_i)*b
 #  putting this in the recursive relation (1), above, we get: x_i=(x_i-2)-(x_i-1)(q_i)
 #                                                        and  y_i=(y_i-2)-(y_i-1)(q_i)
-# now for the initial values, : a=r_0=(x_0)*a + (y_0)*b , so x_0=1 and y_0=0
-#                             : b=r_1=(x_1)*a + (y_1)*b , so x_1=0 and y_1=0
+# now for the initial values, : a=r_1=(x_0)*a + (y_0)*b , so x_0=1 and y_0=0
+#                             : b=r_0=(x_1)*a + (y_1)*b , so x_1=0 and y_1=0
 #  here gcd(a,b)=r_n-2=(x_n-2)*a + (y_n-2)*b
