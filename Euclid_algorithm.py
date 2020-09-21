@@ -25,4 +25,3 @@ print( gcd(200,66)) #example
 
 #We can represent each step of the euclid's algorithm by : r_i=(q_i+2)*(r_i+1)+(r_i+2), 
 #                                                           where (q_i+2)=[(r_i)/(r_i+1)], [] is gif
-#                                                           also r_0 =a and r_1=b (defined)
